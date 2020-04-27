@@ -1,0 +1,18 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com.outsystems.documentpreview": {
+    "source": {
+      "type": "local",
+      "path": "C:\\Users\\iba\\Workspace\\MyFirstFixedApp\\node_modules\\File-Viewer-Plugin"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

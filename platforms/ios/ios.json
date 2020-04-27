@@ -1,0 +1,43 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "configs.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"DocumentPreview\"><param name=\"ios-package\" value=\"DocumentPreview\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "com.outsystems.documentpreview": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "com.outsystems.documentpreview.DocumentPreview",
+      "file": "plugins/com.outsystems.documentpreview/www/DocumentPreview.js",
+      "pluginId": "com.outsystems.documentpreview",
+      "clobbers": [
+        "window.plugins.DocumentPreview"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.4",
+    "com.outsystems.documentpreview": "1.1.1"
+  }
+}

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin 
+    id="com.outsystems.documentpreview" 
+    version="1.1.1" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>DocumentPreview</name>
+    
+    <js-module name="DocumentPreview" src="www/DocumentPreview.js">
+        <clobbers target="window.plugins.DocumentPreview" />
+    </js-module>
+    
+    <platform name="ios">
+        <config-file parent="/*" target="configs.xml">
+            <feature name="DocumentPreview">
+                <param name="ios-package" value="DocumentPreview" />
+            </feature>
+        </config-file>
+        
+        <source-file src="src/ios/DocumentPreview.m" />
+        
+        <header-file src="src/ios/DocumentViewerViewController.h" />
+        <source-file src="src/ios/DocumentViewerViewController.m" />
+        <header-file src="src/ios/DocumentWebviewViewController.h" />
+        <source-file src="src/ios/DocumentWebviewViewController.m" />
+
+        <framework src="MediaPlayer.framework" />
+    </platform>
+    
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/configs.xml">
+            <feature name="DocumentPreview">
+                <param name="android-package" value="com.outsystems.documentpreview.DocumentPreview" />
+            </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="application">
+          <provider
+              android:name="com.outsystems.documentpreview.FileProvider"
+              android:authorities="${applicationId}.opener.provider"
+              android:exported="false"
+              android:grantUriPermissions="true" >
+              <meta-data
+                  android:name="android.support.FILE_PROVIDER_PATHS"
+                  android:resource="@xml/document_preview_provider_paths"/>
+          </provider>
+        </config-file>
+        
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+
+        <framework src="com.android.support:support-v4:24.1.1+" />
+
+        <source-file src="src/android/DocumentPreview.java" target-dir="src/com/outsystems/documentpreview" />
+        <source-file src="src/android/FileProvider.java" target-dir="src/com/outsystems/documentpreview" />
+        <source-file src="src/android/xml/document_preview_provider_paths.xml" target-dir="res/xml" />
+    </platform>
+    
+</plugin>
