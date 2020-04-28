@@ -7,6 +7,11 @@
     "files": {
       "configs.xml": {
         "parents": {
+          "/*": []
+        }
+      },
+      "config.xml": {
+        "parents": {
           "/*": [
             {
               "xml": "<feature name=\"DocumentPreview\"><param name=\"ios-package\" value=\"DocumentPreview\" /></feature>",
@@ -38,6 +43,6 @@
   ],
   "plugin_metadata": {
     "cordova-plugin-whitelist": "1.3.4",
-    "com.outsystems.documentpreview": "1.1.1"
+    "com.outsystems.documentpreview": "1.1.2"
   }
 }

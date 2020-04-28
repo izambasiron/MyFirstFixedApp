@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin 
     id="com.outsystems.documentpreview" 
-    version="1.1.1" 
+    version="1.1.2" 
     xmlns="http://apache.org/cordova/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -12,7 +12,7 @@
     </js-module>
     
     <platform name="ios">
-        <config-file parent="/*" target="configs.xml">
+        <config-file parent="/*" target="config.xml">
             <feature name="DocumentPreview">
                 <param name="ios-package" value="DocumentPreview" />
             </feature>
@@ -29,7 +29,7 @@
     </platform>
     
     <platform name="android">
-        <config-file parent="/*" target="res/xml/configs.xml">
+        <config-file parent="/*" target="res/xml/config.xml">
             <feature name="DocumentPreview">
                 <param name="android-package" value="com.outsystems.documentpreview.DocumentPreview" />
             </feature>

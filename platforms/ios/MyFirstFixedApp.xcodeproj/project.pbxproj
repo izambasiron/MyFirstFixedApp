@@ -14,10 +14,10 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		8A666E3E1F054C25AEA100B2 /* DocumentPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 79205B65C28D4122B7EF47CE /* DocumentPreview.m */; };
-		249B3BEDA986485B8CD9AA63 /* DocumentViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C161B8A6621F496B9706B5B7 /* DocumentViewerViewController.m */; };
-		E1AF1A971B594A6B8FFE634A /* DocumentWebviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319E476CA58243AF863E88B8 /* DocumentWebviewViewController.m */; };
-		8153660EF47B4D28888D47C8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C5C2413B8145ABB7B26E99 /* MediaPlayer.framework */; };
+		8C0C35A3E1B44758944F0BB9 /* DocumentPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9619F8C7143958494F8AF /* DocumentPreview.m */; };
+		559CB24724154410A3BB5780 /* DocumentViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF4672B21B744F8B133F889 /* DocumentViewerViewController.m */; };
+		4517E7CC6A304A36A60C9257 /* DocumentWebviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C734D3B453894785B9B98D79 /* DocumentWebviewViewController.m */; };
+		F7038DEF168C43AFA7AF335F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7D4A18CDCB4BBD98B35D45 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,12 +65,12 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "MyFirstFixedApp/config.xml"; sourceTree = "<group>"; };
-		79205B65C28D4122B7EF47CE /* DocumentPreview.m */ = {isa = PBXFileReference; name = "DocumentPreview.m"; path = "com.outsystems.documentpreview/DocumentPreview.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		C161B8A6621F496B9706B5B7 /* DocumentViewerViewController.m */ = {isa = PBXFileReference; name = "DocumentViewerViewController.m"; path = "com.outsystems.documentpreview/DocumentViewerViewController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		319E476CA58243AF863E88B8 /* DocumentWebviewViewController.m */ = {isa = PBXFileReference; name = "DocumentWebviewViewController.m"; path = "com.outsystems.documentpreview/DocumentWebviewViewController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		A47F34C8197948F399279AA4 /* DocumentViewerViewController.h */ = {isa = PBXFileReference; name = "DocumentViewerViewController.h"; path = "com.outsystems.documentpreview/DocumentViewerViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		7D4FAEB82F8C4A4BADE2F8BE /* DocumentWebviewViewController.h */ = {isa = PBXFileReference; name = "DocumentWebviewViewController.h"; path = "com.outsystems.documentpreview/DocumentWebviewViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		33C5C2413B8145ABB7B26E99 /* MediaPlayer.framework */ = {isa = PBXFileReference; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		E9D9619F8C7143958494F8AF /* DocumentPreview.m */ = {isa = PBXFileReference; name = "DocumentPreview.m"; path = "com.outsystems.documentpreview/DocumentPreview.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		5EF4672B21B744F8B133F889 /* DocumentViewerViewController.m */ = {isa = PBXFileReference; name = "DocumentViewerViewController.m"; path = "com.outsystems.documentpreview/DocumentViewerViewController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		C734D3B453894785B9B98D79 /* DocumentWebviewViewController.m */ = {isa = PBXFileReference; name = "DocumentWebviewViewController.m"; path = "com.outsystems.documentpreview/DocumentWebviewViewController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		EAEFCB81DCEC41F783A26ED2 /* DocumentViewerViewController.h */ = {isa = PBXFileReference; name = "DocumentViewerViewController.h"; path = "com.outsystems.documentpreview/DocumentViewerViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		178524035BC84BB785AFC337 /* DocumentWebviewViewController.h */ = {isa = PBXFileReference; name = "DocumentWebviewViewController.h"; path = "com.outsystems.documentpreview/DocumentWebviewViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		6D7D4A18CDCB4BBD98B35D45 /* MediaPlayer.framework */ = {isa = PBXFileReference; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				8153660EF47B4D28888D47C8 /* MediaPlayer.framework in Frameworks */,
+				F7038DEF168C43AFA7AF335F /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +150,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				33C5C2413B8145ABB7B26E99 /* MediaPlayer.framework */,
+				6D7D4A18CDCB4BBD98B35D45 /* MediaPlayer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,11 +177,11 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				79205B65C28D4122B7EF47CE /* DocumentPreview.m */,
-				C161B8A6621F496B9706B5B7 /* DocumentViewerViewController.m */,
-				319E476CA58243AF863E88B8 /* DocumentWebviewViewController.m */,
-				A47F34C8197948F399279AA4 /* DocumentViewerViewController.h */,
-				7D4FAEB82F8C4A4BADE2F8BE /* DocumentWebviewViewController.h */,
+				E9D9619F8C7143958494F8AF /* DocumentPreview.m */,
+				5EF4672B21B744F8B133F889 /* DocumentViewerViewController.m */,
+				C734D3B453894785B9B98D79 /* DocumentWebviewViewController.m */,
+				EAEFCB81DCEC41F783A26ED2 /* DocumentViewerViewController.h */,
+				178524035BC84BB785AFC337 /* DocumentWebviewViewController.h */,
 			);
 			name = Plugins;
 			path = "MyFirstFixedApp/Plugins";
@@ -306,9 +306,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				8A666E3E1F054C25AEA100B2 /* DocumentPreview.m in Sources */,
-				249B3BEDA986485B8CD9AA63 /* DocumentViewerViewController.m in Sources */,
-				E1AF1A971B594A6B8FFE634A /* DocumentWebviewViewController.m in Sources */,
+				8C0C35A3E1B44758944F0BB9 /* DocumentPreview.m in Sources */,
+				559CB24724154410A3BB5780 /* DocumentViewerViewController.m in Sources */,
+				4517E7CC6A304A36A60C9257 /* DocumentWebviewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
